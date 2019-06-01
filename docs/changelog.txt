@@ -1,0 +1,10 @@
+Verison 2.0.1	- 01 June 2019
+-Fixed logout module
+-Protected includes folder: No indexing of files, no access from web
+
+Version 2.0	- 26 May 2019
+-Complete change of system interface
+-Creation of admin portal
+
+Version 1.0	- August 2018
+-Initial release

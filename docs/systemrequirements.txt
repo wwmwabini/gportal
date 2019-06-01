@@ -1,0 +1,5 @@
+The system requires the following to run on the hosting server:
+-php 7.0+
+-MySQL v5.6+ or Mariadb 10.0+
+-https support
+-Apache or Nginx webserver
