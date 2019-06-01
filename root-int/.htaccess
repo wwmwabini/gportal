@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/(.*)$ /dash/ [R=301,L]
