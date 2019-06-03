@@ -1,0 +1,7 @@
+<?php
+//variables used to customise brands
+$companyname = "";
+$installurl = "";
+$installdir = "";
+$mailas = "";
+$logourl = "";

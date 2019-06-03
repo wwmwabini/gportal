@@ -1,4 +1,9 @@
-Verison 2.0.1	- 01 June 2019
+Version 2.0.2	- 
+- Fixed pwreset login page link redirecting to 404
+- Created config.php.sample
+- Fixed back to login link on password page
+
+Version 2.0.1	- 01 June 2019
 -Fixed logout module
 -Protected includes folder: No indexing of files, no access from web
 

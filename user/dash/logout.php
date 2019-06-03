@@ -2,5 +2,9 @@
 session_start();
 session_destroy();
 unset($_SESSION['login_email']);  
-header("location:../../login");
+
+require '../../includes/common.php';
+
+header("location: http://$installurl/$installdir");
+exit;
 ?>

@@ -1,6 +1,7 @@
 <?php
 
 require '../groupx-config.php';
+require '../../includes/common.php';
 
 //IMPLEMENT HOW TO CHECK WHETHER RESET KEY IN THE URL IS VALID. CHECK IF THIS CAN BE IMPLEMENTED IN AN IF STATEMENT AFTER if($count==1){
 
@@ -25,7 +26,7 @@ if(mysqli_query($link,$sql)){
 	$timenow=date('Y-m-d H:i:s');
         $sql="UPDATE `members` SET expires='$timenow' WHERE email='$mail'";
         mysqli_query($link,$sql);
-echo "You have successfully reset your password. You can now <a href='../groupx-member'>Log In Here</a>.";
+echo "You have successfully reset your password. You can now <a href='http://$installurl/$installdir'>Log In Here</a>.";
 
 }
 else{

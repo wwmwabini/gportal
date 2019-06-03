@@ -33,7 +33,7 @@ $requestdate=date("Y-m-d");
 // Create a url to direct users to page to reset their password and save it to database
 $finalkey="key=&time=$requesttime-&date=$requestdate-&key=$resetkey";
 $urlseparator = "/";
-$pwreset = "pwreset/?";
+$pwreset = "/login/pwreset/?";
 $pwreseturl = "http://".$installurl.$urlseparator.$installdir.$urlseparator.$pwreset.$finalkey;
 
 
@@ -57,7 +57,7 @@ try {
     $mail->Host = 'pld101.truehost.co.ke';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'no-reply@rawle.systems';       // SMTP username
-    $mail->Password = '*j12!G<S3K';                           // SMTP password
+    $mail->Password = 'Dxv1EEpyOYPI';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
