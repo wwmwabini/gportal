@@ -1,9 +1,9 @@
 <?php
 //set variables
 $host="localhost";
-$user="root";
+$user="";
 $pass="";
-$db="groupx";
+$db="";
 
 //establish connection to database
 $link=mysqli_connect("$host","$user","$pass","$db");
